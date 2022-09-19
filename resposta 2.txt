@@ -1,0 +1,49 @@
+NOME: Guilherme e Raul;
+TURMA: 3I3;
+-----------------------------------------------------------------------------
+1-)
+1-
+GET
+É a requisição mais básica e a mais utilizada, pois a partir dela conseguimos recuperar os dados presentes na API de forma simples
+Precisamos apenas indicar qual a URL vamos acessar e, se tivermos permissão, a requisição será feita normalmente
+
+POST
+O POST serve para inserir novos dados na API, porque é com ele que indicamos os valores que iremos adicionar.
+Ir para o Body da requisição e colocar os valores que iremos inserir na API
+OBS: é preciso trocar o tipo de requisição, para que não ocorra um erro na chamada da API
+
+PUT
+É a requisição responsável por modificar os dados da API
+Para realizá-la precisamos mudar o tipo de requisição e declarar a URL. No entanto, precisamos também definir qual dado iremos modificar e só então passamos o id referente
+É bem parecido com o POST, no entanto aqui queremos modificar um valor já existente
+
+-----------------------------------------------------------------------------------
+2-)
+1- SoapUI: É uma ferramenta de testes funcionais, dedicada ao teste de APIs, permitindo testar com facilidade APIs REST e SOAP, além de Web Services. Ao utilizar o SoapUI, é possível ter acesso ao código-fonte e criar novas funcionalidades de acordo com as suas necessidades, além de usufruir dos benefícios já existentes:
+
+Criar testes fácil e rapidamente, utilizando recursos drag and drop.
+Criar códigos customizados rapidamente código com Groovy.
+Criar testes poderosos, orientados a dados. Os dados podem ser carregados de ficheiros, bancos de dados ou Excel, sendo possível simular como consumidores interagem com as APIs.
+Criar cenários complexos, com suporte a testes assíncronos.
+Reutilizar scripts: dados de testes e questões de segurança podem ser reutilizadas para diversos casos de teste funcionais em apenas alguns passos.
+
+
+2- Katalon Studio:Katalon Studio é uma ferramenta de automação de testes que fornece um ambiente comum para criar e executar testes funcionais de UI, API e Web services, além de aplicativos móveis. O Katalon Studio suporta requisições SOAP e RESTful, com diversos tipos de comandos (GET, POST, PUT, DELETE) com possibilidade de parametrização. Principais destaques:
+
+Suporta testes combinados de UI e verificação por API
+Suporta testes de requisições SOAP e RESTful
+Compatível com uma das mais poderosas bibliotecas de validações, o AssertJ, permitindo criar validações fluentes, seguindo a prática de BDD
+Suporta abordagens orientadas a dados
+Pode ser utilizado para testes automatizados e exploratórios
+Amigável para pessoas com conhecimentos em desenvolvimento de software e pessoas sem tais conhecimentos.
+
+
+
+3- Apigee: pigee é uma ferramenta de teste de APIs cross-cloud, que permite a quem utiliza medir e testar a performance de APIs, sendo possível a utilização de outros editores como o Swagger. O Apigee foi feito sob medida para negócios digitais e APIs orientadas a aplicativos móveis, ricas em dados e aplicações que os sustentam. Principais benefícios:
+
+É uma ferramenta criada em JavaScript
+Permite lidar com o monitoramento de design, implementação e escala de APIs
+Identifica gargalos de performance validando o tráfego das APIs, taxas de erro e tempos de resposta
+Cria facilmente proxies de API a partir da especificação Open API, fazendo o deploy desses proxies na nuve
+Possibilidade de implantação local, na nuvem ou em modelo híbrido com uma única base de código
+PCI, HIPAA, SOC2, e PII para aplicações e APIs
